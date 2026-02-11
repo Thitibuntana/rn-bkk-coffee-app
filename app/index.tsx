@@ -7,7 +7,6 @@ const logo = require("@/assets/images/coffeeshop.png");
 export default function SplashScreen() {
   useEffect(() => {
     const timer = setTimeout(() => {
-      // ใช้ replace เพื่อไม่ให้กด Back กลับมาหน้านี้ได้
       router.replace("/home");
     }, 3000);
 

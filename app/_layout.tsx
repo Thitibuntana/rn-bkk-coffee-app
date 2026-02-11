@@ -29,6 +29,8 @@ export default function RootLayout() {
         options={{
           title: "รายละเอียดร้าน",
           headerTitleAlign: "center",
+          headerBackButtonDisplayMode: "minimal",
+          headerTintColor: "#fff",
           headerStyle: { backgroundColor: "#695740" },
           headerTitleStyle: { color: "#fff", fontFamily: "Kanit_400Regular" },
         }}
